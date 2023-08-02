@@ -1,0 +1,67 @@
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 100%;
+  color: rgb(17 24 39);
+}
+h1,
+h2,
+h3 {
+  font-family: "Lato";
+}
+.navlink {
+  color: #000000;
+  font-style: none;
+  text-decoration: none;
+  padding: 0.3rem 1.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.navlink:hover,
+.link:hover {
+  background-color: #50554b;
+  transition: all 0.25s ease-in-out;
+}
+.link {
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 2.5px;
+  border: 1px solid black;
+}
+
+.bg-img {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  background-color: #c9c591;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+.generic-link {
+  font-weight: 500;
+}
+
+.navlink:hover,
+.learning:hover {
+  background-color: #50554b;
+  transition: all 0.25s ease-in-out;
+}
+.learning {
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 2.5px;
+  border: 1px solid black;
+}
